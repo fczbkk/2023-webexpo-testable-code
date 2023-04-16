@@ -1,0 +1,18 @@
+{
+  "name": "@fczbkk/2023-webexpo-testable-code",
+  "version": "1.0.0",
+  "description": "Examples for Webexpo 2023 talk about testable code",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "Riki Fridrich <riki@fczbkk.com> (https://fczbkk.com/)",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

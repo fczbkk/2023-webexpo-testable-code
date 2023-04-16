@@ -1,0 +1,7 @@
+{
+  "transform": {
+  },
+  "testMatch": [
+    "**/?(*.)+(test).js"
+  ]
+}

@@ -1,0 +1,10 @@
+<script>
+let referencePoint = { x: 100, y: 200 };
+
+const getDistanceBetweenPointsWorker = new Worker('./worker.js')
+
+getDistanceBetweenPointsWorker.postMessage({pointA: referencePoint, pointB: {x: 100, y: 100}})
+getDistanceBetweenPointsWorker.onmessage = function (event) {
+  console.log('response', event.data)
+}
+</script>
