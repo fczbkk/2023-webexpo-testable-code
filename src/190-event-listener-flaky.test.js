@@ -1,5 +1,5 @@
 import {jest} from '@jest/globals'
-import {initDistanceChecker} from './130-event-listener.js';
+import {initDistanceChecker} from './170-event-listener.js';
 
 function simulateClick (x = 0, y = 0) {
   const event = new MouseEvent('click', { clientX: x, clientY: y })

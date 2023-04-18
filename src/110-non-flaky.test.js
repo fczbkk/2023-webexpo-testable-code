@@ -1,4 +1,4 @@
-import {getDistanceBetweenPoints} from './070-global-to-param.js';
+import {getDistanceBetweenPoints} from './100-global-to-param.js';
 
 describe('getDistanceBetweenPoints', () => {
 

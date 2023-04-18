@@ -1,4 +1,4 @@
-import {getDistanceBetweenPoints} from './030-extract-to-function.js';
+import {getDistanceBetweenPoints} from './060-extract-to-function.js';
 
 describe('getDistanceBetweenPoints', () => {
 
