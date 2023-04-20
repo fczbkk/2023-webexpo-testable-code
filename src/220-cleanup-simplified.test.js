@@ -1,5 +1,5 @@
 import {jest} from '@jest/globals'
-import {initDistanceChecker} from './160-cleanup.js';
+import {initDistanceChecker} from './200-cleanup.js';
 
 function simulateClick (x = 0, y = 0) {
   const event = new MouseEvent('click', { clientX: x, clientY: y })
@@ -8,11 +8,10 @@ function simulateClick (x = 0, y = 0) {
 
 describe('initDistanceChecker', () => {
 
-  let mockConsoleLog
   let cleanup = () => {}
 
   beforeEach(() => {
-    mockConsoleLog = jest.spyOn(console, 'log')
+    jest.spyOn(console, 'log')
   })
 
   afterEach(() => {
